@@ -264,7 +264,7 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url":  "https://luxtorpeda.gitlab.io/packages/dhewm3/",
+                "url":  "https://luxtorpeda-dev.github.io/assets/dhewm3/",
                 "file": "dhewm3-9050.tar.xz"
             }
         ],
@@ -284,7 +284,7 @@
         "download": [
             {
                 "name": "dhewm3",
-                "url":  "https://luxtorpeda.gitlab.io/packages/dhewm3/",
+                "url":  "https://luxtorpeda-dev.github.io/assets/dhewm3/",
                 "file": "dhewm3-9070.tar.xz"
             }
         ],
@@ -339,7 +339,7 @@
         "download": [
             {
                 "name": "julius",
-                "url":  "https://luxtorpeda-dev.gitlab.io/packages/julius/",
+                "url":  "https://luxtorpeda-dev.github.io/assets/julius/",
                 "file": "julius-517790.tar.xz"
             }
         ],
@@ -349,7 +349,7 @@
             "store_link": "https://store.steampowered.com/app/517790/",
             "engine_name": "julius",
             "engine_link": "https://github.com/bvschaik/julius",
-            "version": "8f571ec (from master)",
+            "version": "eb435bc6 (from master)",
             "comments": "",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan"
