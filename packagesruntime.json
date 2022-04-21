@@ -748,8 +748,8 @@
             },
             {
                 "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-10/",
-                "file": "quakespasm-spiked-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-11/",
+                "file": "quakespasm-spiked-common-11.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -5933,7 +5933,7 @@
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
             "license_link": "https://github.com/andrei-drexler/ironwail/blob/master/LICENSE.txt",
-            "controllerSupportedManualGame": true
+            "controllerSupported": true
         },
         "Yamagi Quake II": {
             "engine_link": "https://www.yamagi.org/quake2/",
