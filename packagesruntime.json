@@ -748,8 +748,8 @@
             },
             {
                 "name": "quakespasm-spiked",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-10/",
-                "file": "quakespasm-spiked-common-10.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/quakespasm-spiked-11/",
+                "file": "quakespasm-spiked-common-11.tar.xz",
                 "cache_by_name": true
             },
             {
@@ -770,8 +770,8 @@
             },
             {
                 "name": "ironwail",
-                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-1/",
-                "file": "ironwail-common-1.tar.xz",
+                "url": "https://github.com/luxtorpeda-dev/packages/releases/download/ironwail-2/",
+                "file": "ironwail-common-2.tar.xz",
                 "cache_by_name": true
             }
         ],
