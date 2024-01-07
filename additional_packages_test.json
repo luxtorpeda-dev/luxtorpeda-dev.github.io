@@ -1,0 +1,15 @@
+{
+  "games": [{
+    "app_id": "1234",
+    "game_name": "Test Game",
+    "command": "./test.sh",
+    "engine_name": "Test Engine",
+    "download": []
+  }],
+  "engines": [{
+    "engine_link": "https://google.com",
+    "version": "1.0",
+    "author": "d10sfan",
+    "engine_name": "Test Engine"
+  }]
+}
