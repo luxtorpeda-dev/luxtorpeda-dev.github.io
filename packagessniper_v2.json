@@ -8617,7 +8617,7 @@
                     "cache_by_name": true
                 }
             ],
-            "name": "FTE QuakeWorld",
+            "engine_name": "FTE QuakeWorld",
             "command": "./ftequakeworld.sh",
             "cloudNotAvailable": true,
             "app_id": "2347390"
