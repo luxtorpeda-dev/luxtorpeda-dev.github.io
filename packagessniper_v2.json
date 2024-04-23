@@ -7255,8 +7255,8 @@
                 },
                 {
                     "name": "open-ig",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/open-ig-2/",
-                    "file": "open-ig-573790-2.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/open-ig-3/",
+                    "file": "open-ig-573790-3.tar.xz"
                 }
             ],
             "command": "./run-open-ig.sh",
@@ -10262,7 +10262,7 @@
         },
         {
             "engine_link": "https://github.com/akarnokd/open-ig",
-            "version": "v0.95.243",
+            "version": "v0.95.244",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "LGPL-3.0",
