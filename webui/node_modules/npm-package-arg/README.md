@@ -1,6 +1,6 @@
 # npm-package-arg
 
-[![Build Status](https://travis-ci.org/npm/npm-package-arg.svg?branch=master)](https://travis-ci.org/npm/npm-package-arg)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/npm/npm-package-arg/ci.yml?branch=main)](https://github.com/npm/npm-package-arg)
 
 Parses package name and specifier passed to commands like `npm install` or
 `npm cache add`, or as found in `package.json` dependency sections.
@@ -47,7 +47,7 @@ included then the default is `latest`.
 
 ### var purl = npa.toPurl(*arg*, *reg*)
 
-Returns the [purl (package URL)](https://github.com/package-url/purl-spec) form of the given pacakge name/spec.
+Returns the [purl (package URL)](https://github.com/package-url/purl-spec) form of the given package name/spec.
 
 * *arg* - A package/version string. For example: `foo@1.0.0` or `@bar/foo@2.0.0-alpha.1`.
 * *reg* - Optionally the URL to the package registry. If not specified, assumes the default
