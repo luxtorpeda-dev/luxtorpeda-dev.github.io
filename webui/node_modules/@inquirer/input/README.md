@@ -63,7 +63,7 @@ const answer = await input({ message: 'Enter your name' });
 | Property    | Type                                                        | Required | Description                                                                                                                                                                                                             |
 | ----------- | ----------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | message     | `string`                                                    | yes      | The question to ask                                                                                                                                                                                                     |
-| default     | `string`                                                    | no       | Default value if no answer is provided (clear it by pressing backspace)                                                                                                                                                 |
+| default     | `string`                                                    | no       | Default value if no answer is provided (press `backspace` to clear the default; press `tab` to inline the value for edits)                                                                                              |
 | required    | `boolean`                                                   | no       | Defaults to `false`. If set to true, `undefined` (empty) will not be accepted for this.                                                                                                                                 |
 | transformer | `(string, { isFinal: boolean }) => string`                  | no       | Transform/Format the raw value entered by the user. Once the prompt is completed, `isFinal` will be `true`. This function is purely visual, modify the answer in your code if needed.                                   |
 | validate    | `string => boolean \| string \| Promise<boolean \| string>` | no       | On submit, validate the filtered answered content. When returning a string, it'll be used as the error message displayed to the user. Note: returning a rejected promise, we'll assume a code error happened and crash. |
@@ -75,14 +75,14 @@ You can theme a prompt by passing a `theme` object option. The theme object only
 
 ```ts
 type Theme = {
-  prefix: string;
+  prefix: string | { idle: string; done: string };
   spinner: {
     interval: number;
     frames: string[];
   };
   style: {
     answer: (text: string) => string;
-    message: (text: string) => string;
+    message: (text: string, status: 'idle' | 'done' | 'loading') => string;
     error: (text: string) => string;
     defaultAnswer: (text: string) => string;
   };
