@@ -5,28 +5,30 @@
 [![Coverage Status](https://coveralls.io/repos/github/discoveryjs/json-ext/badge.svg?branch=master)](https://coveralls.io/github/discoveryjs/json-ext)
 [![NPM Downloads](https://img.shields.io/npm/dm/@discoveryjs/json-ext.svg)](https://www.npmjs.com/package/@discoveryjs/json-ext)
 
-A set of utilities that extend the use of JSON:
+A set of utilities designed to extend JSON's capabilities, especially for handling large JSON data (over 100MB) efficiently:
 
-- [parseChunked()](#parsechunked) – functions like [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) but iterates over chunks, reconstructing the result object.
-- [stringifyChunked()](#stringifychunked) – functions like [`JSON.stringify()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify), but returns a generator yielding strings instead of a single string.
-- [stringifyInfo()](#stringifyinfo) – returns an object with the expected overall size of the stringify operation and any circular references.
-- [parseFromWebStream()](#parsefromwebstream) – a helper function to consume chunks from a Web Stream.
-- [createStringifyWebStream()](#createstringifywebstream) – a helper to create a Web Stream.
+- [parseChunked()](#parsechunked) – Parses JSON incrementally; similar to [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse), but processing JSON data in chunks.
+- [stringifyChunked()](#stringifychunked) – Converts JavaScript objects to JSON incrementally; similar to [`JSON.stringify()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify), but returns a generator that yields JSON strings in parts.
+- [stringifyInfo()](#stringifyinfo) – Estimates the size of the `JSON.stringify()` result and identifies circular references without generating the JSON.
+- [parseFromWebStream()](#parsefromwebstream) – A helper function to parse JSON chunks directly from a Web Stream.
+- [createStringifyWebStream()](#createstringifywebstream) – A helper function to generate JSON data as a Web Stream.
 
-Features:
+### Key Features
 
-- Fast and memory-efficient
-- Compatible with browsers, Node.js, Deno, Bun
-- Supports Node.js and Web streams
-- Dual package: ESM and CommonJS
-- No dependencies
-- Size: 9.4Kb (minified), 3.6Kb (min+gzip)
+- Optimized to handle large JSON data with minimal resource usage (see [benchmarks](./benchmarks/README.md))
+- Works seamlessly with browsers, Node.js, Deno, and Bun
+- Supports both Node.js and Web streams
+- Available in both ESM and CommonJS
+- TypeScript typings included
+- No external dependencies
+- Compact size: 9.4Kb (minified), 3.8Kb (min+gzip)
 
-## Why?
+### Why json-ext?
 
-- Prevents main thread freezing during large JSON parsing by distributing the process over time.
-- Handles large JSON processing (e.g., V8 has a limitation for strings ~500MB, making JSON larger than 500MB unmanageable).
-- Reduces memory pressure. `JSON.parse()` and `JSON.stringify()` require the entire JSON content before processing. `parseChunked()` and `stringifyChunked()` allow processing and sending data incrementally, avoiding large memory consumption at a single time point and reducing GC pressure.
+- **Handles large JSON files**: Overcomes the limitations of V8 for strings larger than ~500MB, enabling the processing of huge JSON data.
+- **Prevents main thread blocking**: Distributes parsing and stringifying over time, ensuring the main thread remains responsive during heavy JSON operations.
+- **Reduces memory usage**: Traditional `JSON.parse()` and `JSON.stringify()` require loading entire data into memory, leading to high memory consumption and increased garbage collection pressure. `parseChunked()` and `stringifyChunked()` process data incrementally, optimizing memory usage.
+- **Size estimation**: `stringifyInfo()` allows estimating the size of resulting JSON before generating it, enabling better decision-making for JSON generation strategies.
 
 ## Install
 
@@ -126,27 +128,40 @@ type StringifyOptions = {
 
 Usage:
 
-```js
-import { stringifyChunked } from '@discoveryjs/json-ext';
-
-const chunks = [...stringifyChunked(data)];
-// or
-for (const chunk of stringifyChunked(data)) {
-    console.log(chunk);
-}
-```
-
-Examples:
-
-- Streaming into a file (Node.js):
+- Getting an array of chunks:
     ```js
-    import fs from 'node:fs';
-    import { Readable } from 'node:stream';
-
-    Readable.from(stringifyChunked(data))
-        .pipe(fs.createWriteStream('path/to/file.json'));
+    const chunks = [...stringifyChunked(data)];
     ```
-- Wrapping into a `Promise` for piping into a writable Node.js stream:
+- Iterating over chunks:
+    ```js
+    for (const chunk of stringifyChunked(data)) {
+        console.log(chunk);
+    }
+    ```
+- Specifying the minimum size of a chunk with `highWaterMark` option:
+    ```js
+    const data = [1, "hello world", 42];
+
+    console.log([...stringifyChunked(data)]); // default 16kB
+    // ['[1,"hello world",42]']
+
+    console.log([...stringifyChunked(data, { highWaterMark: 16 })]);
+    // ['[1,"hello world"', ',42]']
+
+    console.log([...stringifyChunked(data, { highWaterMark: 1 })]);
+    // ['[1', ',"hello world"', ',42', ']']
+    ```
+- Streaming into a stream with a `Promise` (modern Node.js):
+    ```js
+    import { pipeline } from 'node:stream/promises';
+    import fs from 'node:fs';
+
+    await pipeline(
+        stringifyChunked(data),
+        fs.createWriteStream('path/to/file.json')
+    );
+    ```
+- Wrapping into a `Promise` streaming into a stream (legacy Node.js):
     ```js
     import { Readable } from 'node:stream';
 
@@ -158,7 +173,7 @@ Examples:
             .on('finish', resolve);
     });
     ```
-- Write into a file synchronously:
+- Writing into a file synchronously:
     > Note: Slower than `JSON.stringify()` but uses much less heap space and has no limitation on string length
     ```js
     import fs from 'node:fs';
@@ -216,8 +231,9 @@ type StringifyInfoOptions = {
     continueOnCircular?: boolean;
 }
 type StringifyInfoResult = {
-    minLength: number;
-    circular: Object[]; // list of circular references
+    bytes: number;      // size of JSON in bytes
+    spaceBytes: number; // size of white spaces in bytes (when space option used)
+    circular: object[]; // list of circular references
 };
 ```
 
@@ -228,9 +244,10 @@ Example:
 ```js
 import { stringifyInfo } from '@discoveryjs/json-ext';
 
-console.log(stringifyInfo({ test: true }));
+console.log(stringifyInfo({ test: true }, null, 4));
 // {
-//   bytes: 13, // Buffer.byteLength('{"test":true}')
+//   bytes: 20,     // Buffer.byteLength('{\n    "test": true\n}')
+//   spaceBytes: 7,
 //   circular: []    
 // }
 ```
