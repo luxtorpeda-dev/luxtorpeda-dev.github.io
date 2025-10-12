@@ -3477,8 +3477,8 @@
                 },
                 {
                     "name": "chocolate-quake",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-14/",
-                    "file": "chocolate-quake-common-14.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/chocolate-quake-15/",
+                    "file": "chocolate-quake-common-15.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -11736,7 +11736,7 @@
         },
         {
             "engine_link": "https://github.com/MeridianOXC/OpenXcom",
-            "version": "222bfd6",
+            "version": "0ad66a8",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
