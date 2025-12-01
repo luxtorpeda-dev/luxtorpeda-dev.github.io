@@ -11,8 +11,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
-                    "file": "ffdec_24.1.0.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
+                    "file": "ffdec_24.1.1.zip",
                     "cache_by_name": true
                 },
                 {
@@ -4745,8 +4745,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-15/",
-                    "file": "openjk-6020-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-16/",
+                    "file": "openjk-6020-16.tar.xz"
                 }
             ],
             "commands": [
@@ -4771,8 +4771,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-15/",
-                    "file": "openjk-6030-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-16/",
+                    "file": "openjk-6030-16.tar.xz"
                 },
                 {
                     "name": "jk2mv",
@@ -6378,8 +6378,8 @@
                 },
                 {
                     "name": "jpexs-decompiler",
-                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
-                    "file": "ffdec_24.1.0.zip",
+                    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
+                    "file": "ffdec_24.1.1.zip",
                     "cache_by_name": true
                 },
                 {
@@ -13711,8 +13711,8 @@
             },
             {
                 "name": "jpexs-decompiler",
-                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.0/",
-                "file": "ffdec_24.1.0.zip",
+                "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version24.1.1/",
+                "file": "ffdec_24.1.1.zip",
                 "cache_by_name": true
             },
             {
