@@ -4745,8 +4745,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-15/",
-                    "file": "openjk-6020-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-16/",
+                    "file": "openjk-6020-16.tar.xz"
                 }
             ],
             "commands": [
@@ -4771,8 +4771,8 @@
             "download": [
                 {
                     "name": "openjk",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-15/",
-                    "file": "openjk-6030-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/openjk-16/",
+                    "file": "openjk-6030-16.tar.xz"
                 },
                 {
                     "name": "jk2mv",
@@ -9186,7 +9186,7 @@
             "download": [
                 {
                     "name": "ultimate-asi-loader",
-                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.1.0/",
+                    "url": "https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases/download/v9.4.0/",
                     "file": "Ultimate-ASI-Loader.zip"
                 },
                 {
