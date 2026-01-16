@@ -7,13 +7,15 @@
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/d10sfan)](https://github.com/sponsors/d10sfan)
 
 
-Steam Play compatibility tool to run games using native Linux engines
+Steam Play compatibility tool to run games using native Linux engines  
+- [Main website](https://luxtorpeda.org)  
+- [Supported games list](https://luxtorpeda.org/packages)  
 
 ![screenshot-0](https://user-images.githubusercontent.com/3967/61964568-7b674500-afce-11e9-9c42-ef6cc1b425b6.png)
 
 ## Pre-requisites
 
-Compatibility tool will work on any modern 64-bit Linux distribution.
+The compatibility tool will work on any modern 64-bit Linux distribution.
 All packaged games are compiled for Steam Runtime Sniper environment and any additional dependencies are provided in the download.
 
 **Using Luxtorpeda with [Steam native runtime](https://wiki.archlinux.org/index.php/Steam/Troubleshooting#Steam_native_runtime) may or may not work, but is not supported.**
@@ -200,3 +202,4 @@ For the UI, the Godot editor is required. It can be downloaded from https://godo
 * Godot game engine is from https://github.com/godotengine/godot
 * Accept icon is from https://uxwing.com/accept-icon/
 * Controller Icons Library for Godot is from https://github.com/rsubtil/controller_icons
+* appinfo.vdf parser in `src/parsers/` is from https://github.com/Tormak9970/Steam-Art-Manager/tree/dev, the parsers are licensed under the GNU Lesser General Public License version 2.1.
