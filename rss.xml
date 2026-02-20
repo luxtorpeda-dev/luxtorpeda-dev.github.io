@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Luxtorpeda Updates]]></title>
+        <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
+        <link>https://luxtorpeda-dev.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 20 Feb 2026 15:53:31 GMT</lastBuildDate>
+        <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[SNAKE!!! (Metal Gear Solid Games Added)]]></title>
+            <description><![CDATA[The Metal Gear Solid Games have been added, with MGSHDFix for METAL GEAR & METAL GEAR 2: Solid Snake...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#snake-metal-gear-solid-games-added</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#snake-metal-gear-solid-games-added</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OldUnreal Releases Preview for UT2004]]></title>
+            <description><![CDATA[OldUnreal, which has provided patches for other Unreal games, just released a preview 3374 patch for...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#oldunreal-releases-preview-for-ut2004</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#oldunreal-releases-preview-for-ut2004</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[More ScummVM Games Supported with 2026.1.0]]></title>
+            <description><![CDATA[The ScummVM project recently released 2026.1.0, which is now available on Luxtorpeda! As well, thank...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#more-scummvm-games-supported-with-202610</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#more-scummvm-games-supported-with-202610</guid>
+            <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[New Luxtorpeda Client Release Version 75]]></title>
+            <description><![CDATA[It's time for another luxtorpeda client release! This has a good chunk of changes in it, especially ...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#new-luxtorpeda-client-release-version-75</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#new-luxtorpeda-client-release-version-75</guid>
+            <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TaystJK Added For Jedi Academy Multiplayer]]></title>
+            <description><![CDATA[Thanks to an issue suggestion, TaystJK is now the multiplayer engine for Jedi Academy. This is a for...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#taystjk-added-for-jedi-academy-multiplayer</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#taystjk-added-for-jedi-academy-multiplayer</guid>
+            <pubDate>Fri, 30 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LOVE2D Engine Added]]></title>
+            <description><![CDATA[LOVE2D support has been added as a default engine now. This means that for many Windows only LOVE2D ...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#love2d-engine-added</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#love2d-engine-added</guid>
+            <pubDate>Fri, 23 Jan 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Saints 2 Row Juiced Patch Updated]]></title>
+            <description><![CDATA[The Juiced Patch for Saints Row 2 has been updated to the latest version. This allows for much smoot...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#saints-2-row-juiced-patch-updated</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#saints-2-row-juiced-patch-updated</guid>
+            <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Godot 4.5 Update]]></title>
+            <description><![CDATA[With the release of version 74.3.1, the luxtorpeda client is now on Godot 4.5. Godot is used for all...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#godot-45-update</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#godot-45-update</guid>
+            <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenMW Tutorial Thanks to GamingOnLinux]]></title>
+            <description><![CDATA[Thanks to GamingOnLinux on a great tutorial on how to setup OpenMW on Linux and/or Steam Deck with v...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#openmw-tutorial-thanks-to-gamingonlinux</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#openmw-tutorial-thanks-to-gamingonlinux</guid>
+            <pubDate>Thu, 25 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Even More Options for C&C Generals Zero Hour!]]></title>
+            <description><![CDATA[C&C Generals is an old favorite of mine, it's one of the first games I played (I started playing vid...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#even-more-options-for-cc-generals-zero-hour</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#even-more-options-for-cc-generals-zero-hour</guid>
+            <pubDate>Wed, 10 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Windows Mods via Proton]]></title>
+            <description><![CDATA[Alongside the existing native open source engines and closed source native binaries, there is now su...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#windows-mods-via-proton</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#windows-mods-via-proton</guid>
+            <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Godot 4.4 Update and More]]></title>
+            <description><![CDATA[With the release of version 73.0.1, the luxtorpeda client is now on Godot 4.4, as well as rust 1.87....]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#godot-44-update-and-more</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#godot-44-update-and-more</guid>
+            <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Automatic Engine Updates]]></title>
+            <description><![CDATA[All of the build scripts for the various engines that Luxtorpeda supports leads to alot of  maintena...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#automatic-engine-updates</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#automatic-engine-updates</guid>
+            <pubDate>Tue, 18 Mar 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Matrix?]]></title>
+            <description><![CDATA[The logic behind the packages repo has been updated to support changing multiple engines at once fin...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#matrix</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#matrix</guid>
+            <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unreal Gold Made Easier]]></title>
+            <description><![CDATA[Unreal Gold now releases archives, instead of just the exe installer, so it's even easier to use!
+]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#unreal-gold-made-easier</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#unreal-gold-made-easier</guid>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fun with Steam Bugs]]></title>
+            <description><![CDATA[You may have noticed recently when using steam that luxtorpeda would randomly start running on Steam...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#fun-with-steam-bugs</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#fun-with-steam-bugs</guid>
+            <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Godot 4 Upgrade]]></title>
+            <description><![CDATA[The luxtorpeda client has been updated to Godot 4, as well as alot of code cleanup and the ability t...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#godot-4-upgrade</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#godot-4-upgrade</guid>
+            <pubDate>Tue, 26 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[More Extraction Support]]></title>
+            <description><![CDATA[With this release, deb files and iso files can now be read and extracted, leading to more games & en...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#more-extraction-support</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#more-extraction-support</guid>
+            <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Move to Sniper Runtime]]></title>
+            <description><![CDATA[The engines in the packages repo are now starting to be built using the sniper runtime, which is a n...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#move-to-sniper-runtime</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#move-to-sniper-runtime</guid>
+            <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Move to Godot for UI]]></title>
+            <description><![CDATA[Today I released the new Godot UI version "officially" with a minor bug fix release. It seems to hav...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#move-to-godot-for-ui</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#move-to-godot-for-ui</guid>
+            <pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Steam Deck Support!]]></title>
+            <description><![CDATA[Steam Deck support is progressing nicely, mostly related to the GUI scaling and controller support, ...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#steam-deck-support</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#steam-deck-support</guid>
+            <pubDate>Sun, 22 May 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[RetroArch Support]]></title>
+            <description><![CDATA[RetroArch support has been added, so that you can launch a game on steam and then it'll launch Retro...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#retroarch-support</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#retroarch-support</guid>
+            <pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
