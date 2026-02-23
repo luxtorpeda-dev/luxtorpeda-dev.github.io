@@ -7532,8 +7532,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-53/",
-                    "file": "notblood-common-53.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
+                    "file": "notblood-common-54.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8088,8 +8088,8 @@
             "download": [
                 {
                     "name": "7kaa",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-28/",
-                    "file": "7kaa-450140-28.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/7kaa-29/",
+                    "file": "7kaa-450140-29.tar.xz"
                 },
                 {
                     "name": "7kaa-music",
@@ -8537,8 +8537,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-53/",
-                    "file": "notblood-common-53.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
+                    "file": "notblood-common-54.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -8588,8 +8588,8 @@
                 },
                 {
                     "name": "notblood",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-53/",
-                    "file": "notblood-common-53.tar.xz",
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/notblood-54/",
+                    "file": "notblood-common-54.tar.xz",
                     "cache_by_name": true
                 }
             ],
@@ -12344,7 +12344,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "9b79a7c",
+            "version": "8ee2217",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12506,7 +12506,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "df11c22",
+            "version": "dabd56b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
