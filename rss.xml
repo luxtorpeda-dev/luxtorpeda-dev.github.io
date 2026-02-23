@@ -4,10 +4,17 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Feb 2026 14:59:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 21:32:48 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Thief Game Fixes Are Now Available]]></title>
+            <description><![CDATA[Thief Gold and Thief 2 are now supported on Luxtorpeda! Now you can play the games with the TFix and...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#thief-game-fixes-are-now-available</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#thief-game-fixes-are-now-available</guid>
+            <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[SNAKE!!! (Metal Gear Solid Games Added)]]></title>
             <description><![CDATA[The Metal Gear Solid Games have been added, with MGSHDFix for METAL GEAR & METAL GEAR 2: Solid Snake...]]></description>
