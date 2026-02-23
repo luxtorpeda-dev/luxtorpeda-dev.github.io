@@ -12114,7 +12114,7 @@
         },
         {
             "engine_link": "https://github.com/UZDoom/UZDoom",
-            "version": "eb79097",
+            "version": "4e383c0",
             "author": "dreamer/d10sfan",
             "author_link": "https://github.com/dreamer",
             "license": "GPLv3",
@@ -13612,7 +13612,7 @@
         },
         {
             "engine_link": "https://sourceforge.net/p/skfans/7kaa/ci/master/tree/",
-            "version": "3260a20",
+            "version": "7ee6e0b",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
