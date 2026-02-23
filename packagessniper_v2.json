@@ -12344,7 +12344,7 @@
         },
         {
             "engine_link": "https://github.com/Henrique194/chocolate-quake",
-            "version": "8ee2217",
+            "version": "9b79a7c",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv3",
@@ -12506,7 +12506,7 @@
         },
         {
             "engine_link": "https://github.com/ruffle-rs/ruffle",
-            "version": "dabd56b",
+            "version": "df11c22",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "MIT",
