@@ -4,10 +4,17 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2026 03:18:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2026 03:44:31 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Flawless Widescreen Support Added For Some Windows Proton Titles]]></title>
+            <description><![CDATA[Flawless Widescreen support has been added for some Windows titles via proton, including Binary Doma...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#flawless-widescreen-support-added-for-some-windows-proton-titles</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#flawless-widescreen-support-added-for-some-windows-proton-titles</guid>
+            <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Thief Game Fixes Are Now Available]]></title>
             <description><![CDATA[Thief Gold and Thief 2 are now supported on Luxtorpeda! Now you can play the games with the TFix and...]]></description>
