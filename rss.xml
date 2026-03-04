@@ -4,10 +4,17 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Mar 2026 15:34:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 02:58:18 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Half Life Alyx HLA-NoVR Mod Supported]]></title>
+            <description><![CDATA[Valve's Half Life Alyx has been out for a while now, and only VR normally. There's a great mod HLA-N...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#half-life-alyx-hla-novr-mod-supported</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#half-life-alyx-hla-novr-mod-supported</guid>
+            <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Flawless Widescreen Support Added For Some Windows Proton Titles]]></title>
             <description><![CDATA[Flawless Widescreen support has been added for some Windows titles via proton, including Binary Doma...]]></description>
