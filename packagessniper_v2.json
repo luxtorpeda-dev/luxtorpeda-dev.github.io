@@ -5310,8 +5310,8 @@
                 },
                 {
                     "name": "hammerofthyrion",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-15/",
-                    "file": "hammerofthyrion-9060-15.tar.xz"
+                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/hammerofthyrion-16/",
+                    "file": "hammerofthyrion-9060-16.tar.xz"
                 },
                 {
                     "name": "fteqw",
@@ -14059,7 +14059,7 @@
         },
         {
             "engine_link": "https://github.com/clipmove/NotBlood",
-            "version": "323f3c0",
+            "version": "3ac52d5",
             "author": "d10sfan",
             "author_link": "https://github.com/d10sfan",
             "license": "GPLv2",
