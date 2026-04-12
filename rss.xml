@@ -4,7 +4,7 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Apr 2026 17:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Apr 2026 17:19:56 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
