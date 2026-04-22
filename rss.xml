@@ -4,10 +4,17 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 00:59:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 19:43:45 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[United Offensive and More]]></title>
+            <description><![CDATA[Call of Duty: United Offensive has been added via Proton via the CoDUO-YAP mod, which adds QOL impro...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#united-offensive-and-more</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#united-offensive-and-more</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Half Life Alyx HLA-NoVR Mod Supported]]></title>
             <description><![CDATA[Valve's Half Life Alyx has been out for a while now, and only VR normally. There's a great mod HLA-N...]]></description>
