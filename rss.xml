@@ -4,10 +4,17 @@
         <description><![CDATA[Blog describing updates to the client and various packages available.]]></description>
         <link>https://luxtorpeda-dev.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 09 May 2026 03:12:10 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 May 2026 02:46:28 GMT</lastBuildDate>
         <atom:link href="https://luxtorpeda-dev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Rainbow Six Lockdown Mod Support & RAR]]></title>
+            <description><![CDATA[A new luxtorpeda client has been released (76.3.0) which adds support for extracting rar files. This...]]></description>
+            <link>https://luxtorpeda-dev.github.io/blog#rainbow-six-lockdown-mod-support-rar</link>
+            <guid isPermaLink="false">https://luxtorpeda-dev.github.io/blog#rainbow-six-lockdown-mod-support-rar</guid>
+            <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[United Offensive and More]]></title>
             <description><![CDATA[Call of Duty: United Offensive has been added via Proton via the CoDUO-YAP mod, which adds QOL impro...]]></description>
