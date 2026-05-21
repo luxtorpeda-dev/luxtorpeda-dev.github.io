@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - uses: yesolutions/mirror-action@master
-          with:
-            REMOTE: 'https://codeberg.org/luxtorpeda/site'
-            GIT_USERNAME: d10sfan
-            GIT_PASSWORD: ${{ secrets.CODEBERG_KEY }}
+        with:
+          REMOTE: 'https://codeberg.org/luxtorpeda/site'
+          GIT_USERNAME: d10sfan
+          GIT_PASSWORD: ${{ secrets.CODEBERG_KEY }}
